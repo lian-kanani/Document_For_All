@@ -34,7 +34,7 @@ An all-in-one management platform built for E-Payment centers, commercial outlet
 * **Clone the repository:**
 
 ```Bash
-git clone [https://github.com/lian-kanani/document_for_all.git](https://github.com/lian-kanani/document_for_all.git)
+git clone [https://github.com/lian-kanani/Document_For_All.git](https://github.com/lian-kanani/Document_For_All.git)
 cd document_for_all 
 ```
 * **Set up Virtual Environment:**
