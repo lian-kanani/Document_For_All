@@ -1,4 +1,4 @@
-# Document For All — E-Payment & Commercial Center Management System
+# Document_For_All — Enterprise Commercial & E-Payment Operations Platform 
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)
 ![PySide6](https://img.shields.io/badge/UI-PySide6%20%2F%20Qt-green?style=for-the-badge&logo=qt)
@@ -6,9 +6,7 @@
 ![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL%20%2F%20SQLite-blue?style=for-the-badge&logo=postgresql)
 ![Architecture](https://img.shields.io/badge/Architecture-Modular%20%26%20Dynamic-orange?style=for-the-badge)
 
-An enterprise-grade, modular **desktop & wep** application built to streamline operations for E-Payment Centers, Libraries, and Commercial Outlets.  
-Designed with a **Dynamic Forms Engine** to prevent hardcoded business logic and support runtime schema extensions.
-
+An all-in-one management platform built for E-Payment centers, commercial outlets, and libraries. The software handles end-to-end operational workflows through a fully extensible Dynamic Forms Engine. It allows business owners to register unlimited third-party payment providers, configure unique transaction fields on the fly without system redeployment, manage stationery inventory, generate automated PDF/barcode receipts, and process bulk data directly from external spreadsheets (Excel/CSV) for instant batch execution.
 
 ---
 
