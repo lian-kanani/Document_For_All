@@ -1,6 +1,8 @@
-from sqlalchemy import Column, Integer, String, Boolean, DateTime, ForeignKey, Table
-from sqlalchemy.orm import relationship
 from datetime import datetime
+
+from sqlalchemy import Boolean, Column, DateTime, ForeignKey, Integer, String, Table
+from sqlalchemy.orm import relationship
+
 from database.connection import Base
 
 # 1. الجدول الوسيط (Association Table) لعلاقة Many-to-Many

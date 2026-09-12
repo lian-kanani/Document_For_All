@@ -1,7 +1,8 @@
 # demo_cli.py
+from sqlalchemy.orm import Session
+
 from database.connection import Base, engine, get_db
 from database.models import Company, Field, Service
-from sqlalchemy.orm import Session
 
 
 def run_demo():

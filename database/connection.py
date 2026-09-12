@@ -1,5 +1,5 @@
 from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker, declarative_base
+from sqlalchemy.orm import declarative_base, sessionmaker
 
 # Database connection URL (Currently using local SQLite for development/testing)
 DATABASE_URL = "sqlite:///./document_for_all.db"
@@ -13,6 +13,7 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 # Base class for declarative models
 Base = declarative_base()
 
+
 def get_db():
     """Dependency function to manage database session lifecycle safely."""
     db = SessionLocal()
@@ -20,4 +21,3 @@ def get_db():
         yield db
     finally:
         db.close()
-
