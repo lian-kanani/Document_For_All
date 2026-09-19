@@ -20,10 +20,10 @@ An all-in-one management platform built for E-Payment centers, commercial outlet
 ## Tech Stack & Dependencies
 * **Language:** `Python 3.x`
 * **GUI Framework:** `PySide6 (Qt for Python)`
-* **Database & ORM:** PostgreSQL / SQLite3 via SQLAlchemy ORM
-* **Reporting:** ReportLab (Invoice & Barcode Generation)
-* **Quality & Linting:** Ruff CLI
-* **Version Control:** Git & GitHub
+* **Database & ORM:** `PostgreSQL` / `SQLite3 via SQLAlchemy ORM`
+* **Reporting:** `ReportLab (Invoice & Barcode Generation)`
+* **Quality & Linting:** `Ruff CLI`
+* **Version Control:** `Git` & `GitHub`
 
 ## Getting Started
 
